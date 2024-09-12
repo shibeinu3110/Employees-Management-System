@@ -1,0 +1,64 @@
+# Server Properties
+server.port=8081
+# Context path of the application.
+server.servlet.context-path=/sample
+
+# Keycloak Configuration
+keycloak.auth-server-url=http://localhost:8080/auth
+keycloak.realm=demo
+keycloak.resource=my-app
+keycloak.public-client=true
+keycloak.bearer-only = true
+
+keycloak.security-constraints[0].authRoles[0]=user
+keycloak.security-constraints[0].authRoles[1]=admin
+keycloak.security-constraints[0].securityCollections[0].methods[0]=GET
+keycloak.security-constraints[0].securityCollections[0].patterns[0]=/api/products/*
+keycloak.security-constraints[0].securityCollections[0].patterns[1]=/api/productcatalogs/*
+keycloak.security-constraints[0].securityCollections[0].patterns[2]=/api/employees/*
+keycloak.security-constraints[0].securityCollections[1].methods[0]=GET
+keycloak.security-constraints[0].securityCollections[1].methods[1]=POST
+keycloak.security-constraints[0].securityCollections[1].methods[2]=PUT
+keycloak.security-constraints[0].securityCollections[1].patterns[0]=/api/orders/*
+
+keycloak.security-constraints[1].authRoles[0]=admin
+keycloak.security-constraints[1].securityCollections[0].patterns[0]=/api/customers/*
+keycloak.security-constraints[1].securityCollections[1].methods[0]=POST
+keycloak.security-constraints[1].securityCollections[1].methods[1]=PUT
+keycloak.security-constraints[1].securityCollections[1].patterns[0]=/api/products/*
+keycloak.security-constraints[1].securityCollections[1].patterns[1]=/api/productcatalogs/*
+keycloak.security-constraints[1].securityCollections[1].patterns[2]=/api/employees/*
+keycloak.ssl-required = none
+#set true if want to use keycloak security, set if not set false 
+keycloak.use-resource-role-mappings = false
+spring.main.allow-bean-definition-overriding=true
+# Keycloak Enable CORS
+keycloak.cors = true
+
+# Enabling H2 database web console at /h2-console
+spring.h2.console.enabled=true
+
+# Turn off automatic schema creation to avoid conflicts when using schema.sql to create tables
+spring.jpa.hibernate.ddl-auto=update
+# Logging JPA Queries to console
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
+spring.jpa.properties.hibernate.format_sql=true
+
+
+ #MySQL connection string properties
+spring.datasource.url=jdbc:mysql://localhost:3306/testapp?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false#spring.datasource.username=root
+spring.datasource.username=root
+spring.datasource.password=123456
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.hibernate.ddl-auto=none
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.max_fetch_depth=3
+spring.jpa.properties.hibernate.jdbc.fetch_size=50
+spring.jpa.properties.hibernate.jdbc.batch_size=10
+spring.jpa.properties.hibernate.c3p0.min_size=5
+spring.jpa.properties.hibernate.c3p0.max_size=20
+spring.jpa.properties.hibernate.c3p0.timeout=1800
+spring.jpa.properties.hibernate.c3p0.max_statements=50

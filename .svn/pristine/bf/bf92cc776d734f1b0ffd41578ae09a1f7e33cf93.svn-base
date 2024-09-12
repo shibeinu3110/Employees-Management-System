@@ -1,0 +1,25 @@
+
+.wrapper {
+  position: relative;
+}
+
+.wrapperButton {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0);
+}
+
+.hidden {
+  display: none;
+}
+
+.buttonProgress {
+  color: green;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+  margin-left: -12px;
+}

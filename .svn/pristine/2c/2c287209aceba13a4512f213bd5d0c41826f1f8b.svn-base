@@ -1,0 +1,7 @@
+{
+  "realm": "demo",
+  "auth-server-url": "http://globits.net:8080/auth",
+  "ssl-required": "none",
+  "resource": "my-app",
+  "public-client": true
+}

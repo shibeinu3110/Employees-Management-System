@@ -1,0 +1,10 @@
+<service>
+    <id>Globits-Calendar-Keycloak</id> <!-- Change this -->
+    <name>Globits-Calendar-Keycloak</name><!-- Change this -->
+    <description>Globits-Calendar-Keycloak</description><!-- Change this -->
+    <workingdirectory>%BASE%\</workingdirectory>
+    <logpath>%BASE%\logs</logpath>
+
+    <executable>C:\Program Files\Java\jdk1.8.0_131\bin\java</executable>
+    <arguments>-Xms512m -Xmx2048m -XX:PermSize=128m -XX:MaxPermSize=256m -jar globits-cms-v2-application-exec.jar</arguments><!-- Change this -->
+</service>

@@ -1,0 +1,81 @@
+.font{
+    font-size: "15px";
+    font-family: Arial, Helvetica, sans-serif;
+    // font-weight: bold;
+    color: #0d4b8c;
+    padding: 0 2px;
+    background: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.styleColor{
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #409b3e;
+}
+ .title{
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9a3431;
+    font-weight: bold;
+ }
+ .MuiInputLabel-outlined.MuiInputLabel-shrink {
+    font-weight: bold!important;
+}
+
+.MuiFormLabel-root {
+    color: #0d4b8c!important;
+    font-size: "15px"!important;
+}
+// .MuiInputBase-root {
+//     // color: #0d4b8c!important;
+//     // font-weight: bold;
+// }
+
+.stylePlaceholder {
+   color: #000!important;
+//    font-weight: bold !important; 
+}
+.PrivateNotchedOutline-legendNotched-2154 {
+    max-width: 0.01px!important;
+}
+
+// @media (min-width: 960px) and (max-width: 1240px) {
+//     .MuiGrid-grid-md-3 {
+//         flex-grow: 0;
+//         max-width: 33.333333%;
+//         flex-basis: 33.333333%;
+//     }
+//     .MuiGrid-grid-md-2 {
+//         flex-grow: 0;
+//         max-width: 33.333333%;
+//         flex-basis: 33.333333%;
+//     }
+// }
+.MuiInputBase-input {
+    color: #000;
+}
+.ql-align-justify {
+    text-align: justify;
+}
+.ql-align-center {
+    text-align: center;
+}
+.ql-align-left {
+    text-align: left;
+}
+.ql-align-right {
+    text-align: right;
+}
+// a {
+    // color: #0d4b8c !important;
+// }
+a:hover{
+    color: #7467ef !important;
+}
+.list-item:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.54);
+    border-radius: 6px;
+}

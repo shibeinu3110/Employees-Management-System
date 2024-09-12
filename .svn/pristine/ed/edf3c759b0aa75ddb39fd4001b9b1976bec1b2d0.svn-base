@@ -1,0 +1,84 @@
+# Server Properties
+server.port=8085
+# Context path of the application.
+server.servlet.context-path=/da
+
+server.tomcat.max-threads: 4
+server.tomcat.uri-encoding=UTF-8
+spring.session.store-type=none
+security.basic.enabled=false
+# Logging
+logging.level.com.globits=DEBUG
+logging.level.org: ERROR
+logging.level.net: ERROR
+logging.level.javax: ERROR
+
+# SSL enabled
+#server.port=8443
+server.ssl.enabled=false
+server.ssl.key-store=classpath:keystore.jks
+server.ssl.key-store-password=123456
+server.ssl.key-password=123456
+
+# ENDPOINTS CORS CONFIGURATION (EndpointCorsProperties)
+endpoints.cors.allow-credentials=false
+endpoints.cors.allowed-headers=Authorization, Content-Type
+endpoints.cors.allowed-methods=POST, PUT, GET, OPTIONS, DELETE
+endpoints.cors.max-age=36000
+endpoints.cors.allowed-origins=*
+
+# MySQL connection string properties
+spring.datasource.url=jdbc:mysql://localhost:3306/lv2?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false#spring.datasource.username=root
+spring.datasource.username=root
+spring.datasource.password=123456
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL55Dialect
+#spring.datasource.url=jdbc:sqlserver://localhost;databaseName=education
+#spring.datasource.url=jdbc:sqlserver://192.168.1.24;databaseName=education_new
+#spring.datasource.username=sa
+#spring.datasource.password=123456
+
+#spring.datasource.url=jdbc:sqlserver://localhost;databaseName=testapp
+#spring.datasource.username=sa
+#spring.datasource.password=123456
+#spring.datasource.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver
+#spring.jpa.properties.hibernate.dialect=com.globits.core.dialect.UnicodeSQLServerDialect
+
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.SQLServer2008Dialect
+##------------------------------------------------------------------------------------##
+## Hibernate Configurations
+## For use with H2 database, set hibernate.dialect=org.hibernate.dialect.H2Dialect
+## For use with MySQL database, set hibernate.dialect=org.hibernate.dialect.MySQLDialect
+##------------------------------------------------------------------------------------##
+# JPA (JpaBaseConfiguration, HibernateJpaAutoConfiguration)
+spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.hibernate.ddl-auto=none
+spring.jpa.show-sql=true
+
+spring.jpa.properties.hibernate.max_fetch_depth=3
+spring.jpa.properties.hibernate.jdbc.fetch_size=50
+spring.jpa.properties.hibernate.jdbc.batch_size=10
+spring.jpa.properties.hibernate.c3p0.min_size=5
+spring.jpa.properties.hibernate.c3p0.max_size=20
+spring.jpa.properties.hibernate.c3p0.timeout=1800
+spring.jpa.properties.hibernate.c3p0.max_statements=50
+
+################### JavaMail Configuration ##########################
+spring.mail.host=smtp.gmail.com
+spring.mail.port=465
+spring.mail.protocol==smtps
+spring.mail.username=bizicafe@gmail.com
+spring.mail.password=
+spring.mail.default-encoding=utf-8
+spring.main.allow-bean-definition-overriding=true
+
+################### file upload Configuration ##########################
+#da.file.folder=D:/da/DoAn/img/
+#attachment.path=D:/da/DoAn/img/
+
+da.file.folder=D:/Working/LeThiThanh/LTT/da-view/resources/
+attachment.path=D:/Working/LeThiThanh/LTT/da-view/resources/
+attachment.context.path=/resources
+
+localhost.path=http://localhost:8085/da
+localhost.path.client.user=http://localhost:3000

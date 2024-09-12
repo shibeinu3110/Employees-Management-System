@@ -1,0 +1,57 @@
+.MuiTableRow-root .MuiTableCell-head {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.MuiTableRow-root .MuiTableCell-root {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.MuiTableRow-root .MuiTableCell-paddingNone {
+    padding: 0px;
+}
+
+.MuiIconButton-root {
+    cursor: pointer;
+}
+
+.asset_department {
+    background-color: #fff;
+    padding: 8px;
+    height: auto;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.none_wrap {
+    white-space: nowrap !important;
+}
+
+.validator-form-scroll-dialog {
+    overflow-y: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.logo-login{
+    max-width: 400px !important;
+}
+.logo-login img{
+    width: 100% !important;
+}
+
+// .logo-menu{
+//     max-width: 100px !important;
+// }
+// .logo-menu img{
+//     width: 100% !important;
+// }

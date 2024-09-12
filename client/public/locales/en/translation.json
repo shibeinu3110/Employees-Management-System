@@ -1,0 +1,814 @@
+{
+  "web_site": "Medical Device Management Software",
+  "Dashboard": {
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "logout": "Logout",
+    "profile": "Profile",
+    "asset": "Asset",
+    "count_of_allocations": "Count Of Allocations",
+    "count_of_transfer": "Count Of Transfer",
+    "assetManagement": "Asset Management",
+    "materialManagement": "Material  Management",
+    "asset_broken": "Asset Broken",
+    "category": "Category",
+    "manage": "Manage",
+    "purchase": "Purchasing",
+    "subcategory": {
+      "product": "Product",
+      "productType": "Product type",
+      "productCategory": "Product category",
+      "productAttribute": "Product attribute",
+      "assetGroup": "Asset group",
+      "assetSource": "Asset source",
+      "department": "Department",
+      "administrativeUnit": "Administrative unit",
+      "commonObjectType": "Common object type",
+      "commonObject": "Common object",
+      "supplier": "Supplier",
+      "contract": "Contract",
+      "stockKeepingUnit": "Stock keeping unit",
+      "assetType": "Asset type",
+      "assetStatus": "Asset status",
+      "productAttributeValue": "Product attribute value",
+      "productTemplate": "Product template",
+      "maintainRequestStatus": "Maintain request status",
+      "staff": "Staff",
+      "store": "Store"
+    },
+    "summary_report": {
+      "title": "Summary report",
+      "aggregate_assets_by_asset_group": "Aggregate assets by asset group",
+      "amount_of_assets_grouped_by_asset_group": "Amount of assets grouped by asset group",
+      "amount_of_assets_grouped_by_department": "Amount of assets grouped by department",
+      "amount_of_assets_grouped_by_product_category": "Amount of assets grouped by product category"
+    },
+    "Purchase": {
+      "purchase_supplies": "Purchase supplies",
+      "purchase_asset": "Purchase asset",
+      "purchaseRequest": "Purchase Request",
+      "ReceivingAsset": "Receiving Asset",
+      "purchasePlaning": "Purchase Planing",
+      "purchaseRequestStauts": "Purchase request stauts",
+      "purchase_request_count": "Purchase request count",
+      "suppliesPurchaseRequest": "Supplies purchase request",
+      "supplies_purchase_request_count": "Supplies purchase request count",
+      "suppliespurchasePlaning": "Supplies purchase planing",
+      "noti": {
+        "warning_planing": "The plan has been approved"
+      }
+    }
+  },
+  "menu": {
+    "title": "Menu",
+    "description": "Description",
+    "code": "Id",
+    "name": "Name",
+    "icon": "Icon",
+    "key": "Key",
+    "path": "Path",
+    "parent": "Parent"
+  },
+  "webinar": {
+    "list": "Webinar List",
+    "myList": "My Webinar List",
+    "title": "Webinar List",
+    "description": "Description",
+    "startTime": "Start Time",
+    "name": "Name",
+    "id": "Id",
+    "endTime": "End Time",
+    "Action": "Action",
+    "Delete": "Delete",
+    "confirm": "Confirm",
+    "addConfirm": "Add to your list?",
+    "deleteConfirm":"Delete confirm?",
+    "add": "Add",
+    "cancel": "Cancel",
+    "addSuccess":"Added Successfully",
+    "deleteSuccess":"Deleted Succsessfully",
+    "exist":"Already exists in your list",
+    "userZoom":"This account doesn't have UserZoom, please update!",
+    "webinarName":"Webinar name",
+    "webinarId":"Webinar Id",
+    "des":"Descriptions",
+    "time": "Time",
+    "joinWebinar":"Join webinar room",
+    "startWebinar": "Start webinar",
+    "webinarEnd":"The webinar has ended",
+    "emptyHost":"Meeting Number and Meeting Password are empty, do you want to create a new host?",
+    "notYet":  "The webinar has not yet started",
+    "WebinarJoin" : "Join Webinar room?",
+    "join": "Join",
+    "WebinarStart": "Start webinar?",
+    "start": "Start"
+  },
+
+  "Verify":{
+    "something_went_wrong":"Oh no, something went wrong...",
+    "verify_successful_title":"Registered successfully!",
+    "invalid_token": "The URL is invalid. Please check again.",
+    "verify_successful_message": "",
+    "try_again": "Please try again!",
+    "make_sure_connection_ok": "Make sure that your internet connection is stable.",
+    "make_sure_correct_url":"Make sure that the URL is correct.",
+    "make_sure_within_time":"Make sure that you verify your account within 24 hours after registration.",
+    "login":"Back to login",
+    "back_to_dashboard":"Back to homepage",
+    "time_expired": "Verification time expired. Please register again."
+  },
+
+  "FileUpload": {
+    "drop_file_here": "Drop your file here",
+    "selected": "selected",
+    "upload": "Upload",
+    "no_file_selected": "No file selected",
+    "note_limit":"Allows .jpg, .jpeg, .png, Maximum: 2MB",
+    "note_size": "File can't be larger than 2mb!",
+    "note_format": "File incorrect format!"
+  },
+
+  "general": {
+    "roles": "Roles",
+    "noti": "Notification",
+    "exportToExcel": "Export Excel",
+    "importExcel": "Import Excel",
+    "saveUpdate": "Save/Update",
+    "select": "Select",
+    "select_asset": "Select Asset",
+    "cancel": "Cancel",
+    "search": "Search",
+    "save": "Save",
+    "viewDocument": "View document",
+    "downloadDocument": "Download document",
+    "removeDocument": "Remove document",
+    "viewDetail": "View detail",
+    "search_tree_department": "Search department",
+    "add": "Add",
+    "details": "Details",
+    "deleteAllConfirm": "Delete all confirm?",
+    "deleteSelectConfirm": "Are your sure that Delete selected records",
+    "deleteConfirm": "Delete confirm",
+    "enterSearch": "Enter search",
+    "confirm": "Confirm",
+    "agree": "Agree",
+    "pleaseSelect": "Please select",
+    "deleteQuestion": "Delete question?",
+    "list": "List",
+    "code": "Code",
+    "name": "Name",
+    "description": "Description",
+    "delete": "Delete",
+    "action": "Action",
+    "filterStatus": "Filter with status",
+    "filterAssetGroup": "Filter with asset group",
+    "email": "Email",
+    "language": "Language",
+    "editIcon": "Edit",
+    "deleteIcon": "Delete",
+    "index": "No.",
+    "emptyDataMessageTable": "No records to display",
+    "rows_per_page": "Rows per page:",
+    "or": "or",
+    "caculator": "Caculator",
+    "close": "Close",
+    "filterYear": "Select year",
+    "upload": "Upload",
+    "remove": "Remove",
+    "select_file": "Choose file",
+    "size": "Size",
+    "file_name": "File name",
+    "empty_file": "Empty file",
+    "noti_check_data": "No data selected",
+    "all": "All",
+    "filterStore": "Fillter by Store",
+    "filterDerpartment": "Filter derpartment",
+    "historyIcon": "View History",
+    "of": "of",
+    "selects": "{0} row(s) selected",
+    "add_asset": "Add Asset",
+    "required": "This field is required",
+    "warrantyMonthError": "Warranty Month is not valid",
+    "yearPutIntoUseError": "Year Put Into Use is not valid"
+  },
+  "component": {
+    "product": {
+      "title": "Select product"
+    },
+    "department": {
+      "title": "Select department",
+      "text": "Department"
+    },
+    "asset": {
+      "title": "Select asset",
+      "code": "Asset code",
+      "name": "Asset name"
+    },
+    "Supply": {
+      "title": "Select Supply",
+      "code": "Supply code",
+      "name": "Supply name"
+    }
+  },
+  "Asset": {
+    "list_asset": "List asset",
+    "name": "Asset name",
+    "code": "Asset code",
+    "status": "Status",
+    "title": "Asset",
+    "product": "Product",
+    "CountryOrigin": "CountryOrigin",
+    "action": "Action",
+    "manufacturer": "Manufacturer",
+    "asset_transfer_to_another_unit": "Asset transfer to another unit",
+    "allocation_asset": "Allocation Asset",
+    "asset_liquidate": "Asset liquidate",
+    "transfer_asset": "Transfer asset",
+    "maintain_request": "Maintain request",
+    "inventory_count_voucher": "Inventory count voucher",
+    "inventory_count_status": "Inventory count status",
+    "asset_depreciation_calculator": "Asset depreciation calculator",
+    "department": "Department",
+    "usePerson": "Use Person",
+    "tab_info_asset": "General information",
+    "tab_depreciation_information": "Depreciation information",
+    "tab_info_product": "Produce information",
+    "enterSearch": "Search by name and code",
+    "depreciationYear": "Depreciation year",
+    "note": "Note",
+    "depreciationPeroidDate": "Depreciation Peroid",
+    "receiverPerson": "Receiver Person",
+    "depreciatedAmount": "Depreciated amount",
+    "unitPrice": "Unit price",
+    "useDepartment": "Department of use",
+    "dayStartedUsing": "Day started using",
+    "assetGroup": "Asset group",
+    "assetSource": "Asset source",
+    "yearPutIntoUse": "Year put into use",
+    "warrantyExpiryDate": "Warranty expiry date",
+    "managementCode": "Management code",
+    "installationLocation": "Installation location",
+    "warrantyMonth": "Warranty month",
+    "qr_code": "Create QR code",
+    "depreciationRate": "Depreciation rate (%)",
+    "originalCost": "Original cost (VNĐ)",
+    "depreciationPeriod": "Depreciation period (Month)",
+    "carryingAmount": "Carrying amount",
+    "Dateaddednew": "Date added new",
+    "filter_manage_accountant": "Filter manage accountant",
+    "filter_temporary": "Filter temporary",
+    "filter_manage_department": "Filter manage department",
+    "Temporary": {
+      "temporary": "Temporary",
+      "asset_delivered": "Asset delivered",
+      "all": "All"
+    },
+    "ManageAccountant": {
+      "manageAccountant": "ManageAccountant",
+      "unmanaged_accountant": "Unmanaged accountant",
+      "all": "All"
+    }
+  },
+  "Product": {
+    "title": "Product",
+    "noti": {
+      "codeWasUsed": "The product code was used",
+      "addSuccess": "Create a new product successfully",
+      "addFail": "An error occurred while adding a new product",
+      "updateFail": "An error occurred while updating the product",
+      "updateSuccess": "Update the product successfully",
+      "use": "The product is in use, cannot be deleted",
+      "use_all": "All products are used",
+      "deleted_unused": "Deleted unused products",
+      "deleteSuccess": "Delete success"
+    },
+    "name": "Product name",
+    "code": "Product code",
+    "type": "Type",
+    "description": "Description",
+    "productType": "Product type",
+    "productTemplate": "Product template",
+    "productAttributes": "List product atttributes",
+    "stockKeepingUnit": "Stock keeping unit",
+    "madeIn": "Made in",
+    "yearOfManufacture": "Year of manufacture",
+    "model": "Model",
+    "warrantyExpiryDate": "Warranty expiry date",
+    "supplyUnit": "Supplier",
+    "manufacturer": "Manufacturer",
+    "serialNumber": "Serial",
+    "warrantyMonth": "Warranty month",
+    "enterKeySearch": "Enter keyword to searching",
+    "quantity": "Quantity",
+    "amount": "Amount",
+    "note": "Note",
+    "price": "Price",
+    "remainingAmount": "Total amount",
+    "property": {
+      "name": "Property name"
+    },
+    "dialog": {
+      "title": "Update product"
+    },
+    "add": "Add Product"
+  },
+  "allocation_asset": {
+    "saveUpdate": "Save/Update",
+    "handoverDepartment": "Handover Department",
+    "handoverPerson": "Handover Person",
+    "receiverDepartment": "Receiver Department",
+    "receiverPerson": "Receiver Person",
+    "issueDate": "Issue Date",
+    "not_edit": "Not Edit",
+    "enterSearch": "Search by user and department"
+  },
+  "ProductType": {
+    "title": "Product type",
+    "name": "Name",
+    "code": "Code",
+    "search": "Search by name and code",
+    "noti": {
+      "use": "The product type is in use, cannot be deleted",
+      "use_all": "All products type are used",
+      "deleted_unused": "Deleted unused products type",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "ProductCategory": {
+    "title": "Product category",
+    "name": "Name",
+    "code": "Code",
+    "parent": "Product category parent",
+    "dialog": {
+      "titleUpdate": "Update product category",
+      "titleCreate": "Add product category"
+    },
+    "search": "Search by name and code",
+    "select_title": "Select product category",
+    "noti": {
+      "use": "The product category is in use, cannot be deleted",
+      "use_all": "All products category are used",
+      "deleted_unused": "Deleted unused products category",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "ProductAttribute": {
+    "name": "Product attribute name",
+    "code": "Product attribute code",
+    "title": "Product attribute",
+    "product": "Applicable product",
+    "product_validationMessage": "Product validation message",
+    "filter": "Search by name and code"
+  },
+  "AssetGroup": {
+    "title": "Asset group",
+    "name": "Name",
+    "code": "Code",
+    "parent": "Parent Group Asset ",
+    "search": "Search by name and code",
+    "noti": {
+      "use": "The asset group is in use, cannot be deleted",
+      "use_all": "All assets group are used",
+      "deleted_unused": "Deleted unused assets group",
+      "dupli_code": "Code already in use"
+    },
+    "viewIndex": "View index"
+  },
+  "AssetSource": {
+    "name": "Name",
+    "code": "Code",
+    "title": "Asset source",
+    "search": "Search by name and code",
+    "noti": {
+      "use": "The asset source is in use, cannot be deleted",
+      "use_all": "All asset source are used",
+      "deleted_unused": "Deleted unused asset source",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "Department": {
+    "title": "Department",
+    "name": "Name",
+    "code": "Code",
+    "departmentType": "Department type",
+    "parent": "Parent",
+    "isAssetManagement": "Is asset management department",
+    "dialog": {
+      "title": "Cập nhật vòng ngoại kiểm"
+    },
+    "filter": "Search by name and code deparment",
+    "noti": {
+      "use": "The department is in use, cannot be deleted",
+      "use_all": "All department are used",
+      "deleted_unused": "Deleted unused department",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "CommonObjectType": {
+    "title": "Common object type",
+    "name": "Name",
+    "code": "Code",
+    "filter": "Search by name, code",
+    "noti": {
+      "use": "The commonObjectType is in use, cannot be deleted",
+      "use_all": "All commonObjectType are used",
+      "deleted_unused": "Deleted unused commonObjectType",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "CommonObject": {
+    "title": "Common object",
+    "name": "Name",
+    "code": "Code",
+    "type": "Common object type",
+    "filter": "Search by name, code",
+    "noti": {
+      "use": "The commonObject is in use, cannot be deleted",
+      "use_all": "All commonObject are used",
+      "deleted_unused": "Deleted unused commonObject",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "Supplier": {
+    "title": "Supplier",
+    "name": "Supplier Name",
+    "code": "Code",
+    "search": "Search by name, code",
+    "add": "Add Supplier",
+    "noti": {
+      "use": "The supplier is in use, cannot be deleted",
+      "use_all": "All Supplier are used",
+      "deleted_unused": "Deleted unused supplier",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "Contract": {
+    "title": "Contract",
+    "name": "Name",
+    "code": "Code",
+    "content": "Content",
+    "date": "Date",
+    "contractType": "Contract Type",
+    "filter": "Search by name, code and content",
+    "noti": {
+      "use": "The contract is in use, cannot be deleted",
+      "use_all": "All contract are used",
+      "deleted_unused": "Deleted unused contract",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "StockKeepingUnit": {
+    "name": "Name",
+    "code": "Code",
+    "coefficient": "Coefficient",
+    "title": "Stock keeping unit",
+    "filter": "Search by name, code the stock keeping unit",
+    "noti": {
+      "use": "The stock keeping unit is in use, cannot be deleted",
+      "use_all": "All stock keeping unit are used",
+      "deleted_unused": "Deleted unused stock keeping unit",
+      "dupli_code": "Code already in use",
+      "addSuccess": "Create a new stock keeping unit successfully",
+      "addFail": "An error occurred while adding a new stock keeping unit",
+      "updateSuccess": "Update the stock keeping unit successfully",
+      "deleteSuccess": "Delete success",
+      "deleteFail": "Delete failure, this stock keeping unit was used"
+    }
+  },
+  "AssetType": {
+    "name": "Name",
+    "code": "Code",
+    "title": "Asset type",
+    "filter": "Search by name and code",
+    "noti": {
+      "use": "The asset type is in use, cannot be deleted",
+      "use_all": "All asset type are used",
+      "deleted_unused": "Deleted unused asset type",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "AssetStatus": {
+    "title": "Asset status",
+    "name": "Asset status name",
+    "code": "Asset status code",
+    "indexOrder": "Index Order",
+    "filter": "Search by asset status",
+    "noti": {
+      "use": "The asset status is in use, cannot be deleted",
+      "use_all": "All asset status are used",
+      "deleted_unused": "Deleted unused asset status",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "AssetTransfer": {
+    "type": "Voucher Type",
+    "issueDate": "Issue date",
+    "receiverDepartment": "Receiver department",
+    "receiverPerson": "Receiver person",
+    "handoverDepartment": "Handover department",
+    "handoverPerson": "Handover person",
+    "filter": "Search by user and department"
+  },
+  "maintainRequestStatus": {
+    "title": "Maintain request status",
+    "name": "Name",
+    "code": "Code",
+    "order": "Index order",
+    "filter": "Search by status",
+    "noti": {
+      "use": "The maintain request status is in use, cannot be deleted",
+      "use_all": "All maintain request status are used",
+      "deleted_unused": "Deleted unused maintain request status",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "maintainRequest": {
+    "title": "Maintain request",
+    "name": "Name",
+    "depRequest": "Dep request",
+    "maintainDepOwner": "Maintain depOwner",
+    "maintainOwner": "Maintain owner",
+    "status": "Status",
+    "note": "Note",
+    "asset": "Asset",
+    "userRequest": "User request",
+    "dateRequest": "Date request",
+    "search": "Search by user and deparment"
+  },
+  "ProductAttributeValue": {
+    "property": "Property name",
+    "valueNumber": "Value number",
+    "valueText": "Value text",
+    "title": "Product Attribute Value",
+    "product": "Product",
+    "filter": "Search by name and code"
+  },
+  "ProductTemplate": {
+    "title": "Product template",
+    "name": "Product template name",
+    "code": "Product template code",
+    "properties": "Product attribute",
+    "filter": "Search by name and code",
+    "noti": {
+      "use": "The product template is in use, cannot be deleted",
+      "use_all": "All product template are used",
+      "deleted_unused": "Deleted unused maintain product template",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "Sku": {
+    "code": "Stock keeping unit code",
+    "name": "Stock keeping unit name",
+    "coefficient": "Coefficient",
+    "cost": "Cost",
+    "isDefault": "Is default",
+    "btnAdd": "Add",
+    "btnDelete": "Delete",
+    "list": "List stock keeping unit",
+    "noti": {
+      "use": "The stock keeping unit is in use, cannot be deleted",
+      "use_all": "All stock keeping unit are used",
+      "deleted_unused": "Deleted unused maintain stock keeping unit",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "title": "Welcome to react using react-i18next",
+  "system": {
+    "title": "EXTERNAL QUALITY ASSESSMENT FOR HIV SEROLOGY SOFTWARE"
+  },
+  "Download": "Download",
+  "button": {
+    "add": "Add new"
+  },
+  "user": {
+    "title": "Account",
+    "userList": "List users",
+    "displayName": "Full name",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "gender": "Gender",
+    "username": "User name",
+    "changePass": "Change password",
+    "saveChange": "Save Change",
+    "active": "Active",
+    "role": "Role",
+    "department": "Department",
+    "please_select_permission": "Please select at least a role",
+    "isMainDepartment": "Main department",
+    "pass": "Password",
+    "current_password": "Current password",
+    "confirm_password": "Confirm password",
+    "re_pass": "Re password",
+    "filter": "Search by name user",
+    "person_info": "Personal information",
+    "saveUpdate": "Save/Update",
+    "add": "Add new"
+  },
+  "role": {
+    "title": "Role",
+    "name": "Name",
+    "authority": "Authority",
+    "createdBy": "Create by"
+  },
+  "manage": {
+    "profile_is_logged": "Management Profile",
+    "user": "Management User",
+    "isMainDepartment": "Select Main Deartment",
+    "menu": "Management Menu",
+    "department": "Department",
+    "departmentList": "Department List"
+  },
+  "InventoryCountVoucher": {
+    "title": "Inventory Count Asset",
+    "stt": "Order number",
+    "inventoryCountDate": "Date",
+    "inventoryCountPerson": "Inventory Count Person",
+    "department": "Departemnt",
+    "status": "Status",
+    "asset": "Asset",
+    "add": "Add",
+    "note": "Note",
+    "enterSearch": "Search by name, department and status"
+  },
+  "InventoryCountStatus": {
+    "name": "Inventory count status name",
+    "code": "Inventory count status code",
+    "indexOrder": "Order number",
+    "title": "Inventory count status",
+    "filter": "Search by name and code",
+    "CountAsset": {
+      "note": "Note",
+      "currentStatus": "Current Status",
+      "status": "Status update"
+    },
+    "noti": {
+      "use": "The inventory count status is in use, cannot be deleted",
+      "use_all": "All inventory count status are used",
+      "deleted_unused": "Deleted unused maintain inventory count status",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "AggregateAssetsByAssetGroup": {
+    "title": "Summary report By Group",
+    "total_assets": "Total Assets ",
+    "total_assets_by_group": "Total Assets By Group "
+  },
+  "sign_in": {
+    "title": "Login"
+  },
+  "sign_up": {
+    "title": "Register",
+    "title_form": "Register Account"
+  },
+  "forgot_password": "Forgot Password?",
+  "username": "Username",
+  "password": "Password",
+  "staff": {
+    "title": "Staff",
+    "name": "Staff name",
+    "code": "Staff code",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "displayName": "Display name",
+    "gender": "Gender",
+    "birthDate": "Birth date",
+    "birthPlaceame": "Birth placeame",
+    "phoneNumber": "Phone number",
+    "email": "Email",
+    "search": "Search by name and code",
+    "UserName": "User name",
+    "department": "Department",
+    "noti": {
+      "use": "Nhân viên đang sử dụng, không thể xóa",
+      "use_all": "Nhân viên đều đã sử dụng",
+      "deleted_unused": "Đã xoá nhân viên chưa sử dụng",
+      "dupli_code": "Mã đã được sử dụng"
+    }
+  },
+  "Store": {
+    "name": "Store name",
+    "code": "Store code",
+    "address": "Location",
+    "filter": "Find by code, name or location of the store",
+    "inventory_receiving_voucher": "Inventory receiving voucher",
+    "inventory_delivery_voucher": "Inventory delivery voucher",
+    "report": "Import and export report inventory",
+    "select_title": "Select Store",
+    "noti": {
+      "use": "The store is in use, can not be delete",
+      "use_all": "All the store are in use, can not be delete",
+      "deleted_unused": "The stores unuse are removed",
+      "dupli_code": "The store code was used",
+      "addSuccess": "Create a new store successfully",
+      "addFail": "An error occurred while adding a new store",
+      "updateFail": "An error occurred while updating the store",
+      "updateSuccess": "Update the store successfully",
+      "deleteSuccess": "Delete success"
+    }
+  },
+  "InventoryReceivingVoucher": {
+    "stt": "Order number",
+    "title": "Inventory receiving voucher",
+    "issueDate": "Issue Date",
+    "voucherCode": "Voucher Code",
+    "code": "Inventory Receiving Voucher Code",
+    "name": "Inventory Receiving Voucher Name",
+    "store": "Inventory Name",
+    "add": "Create",
+    "product": "Product Name",
+    "enterSearch": "Search by name and code",
+    "expiryDate": "Expiry Date",
+    "batchCode": "Batch Code",
+    "handoverPerson": "Handover Person",
+    "total": "Total (VNĐ)"
+  },
+  "InventoryDeliveryVoucher": {
+    "title": "Inventory Delivery Voucher",
+    "stt": "Order number",
+    "issueDate": "Issue Date",
+    "code": "Voucher Code",
+    "name": "Inventory Delivery Voucher Name",
+    "store": "Inventory Name",
+    "add": "Create",
+    "product": "Product Name",
+    "enterSearch": "Search by name and code",
+    "receiverPerson": "Receiver Person",
+    "handoverPerson": "Handover Person"
+  },
+  "StockSummaryReport": {
+    "title": "Stock Summary Report",
+    "stt": "Order number",
+    "issueDate": "Date issueDate",
+    "code": "Coupon code",
+    "store": "Store Receipt/Delivery",
+    "totalAmountReceipt": "Total Receipt",
+    "totalAmountDelivery": "Total Delivery",
+    "stockInTrack": "Stock In Track"
+  },
+  "InventoryReport": {
+    "inventory_report": "Inventory Report",
+    "title": "Inventory Report",
+    "filter": "Searching",
+    "code": "Product code",
+    "name": "Product Name",
+    "sku": "Unit",
+    "remainingQuantity": "Inventory Amount",
+    "history_title": "Product import and export history",
+    "import_history": "Import History",
+    "export_history": "Export History"
+  },
+  "ReceivingAsset": {
+    "title": "Receiving asset",
+    "filter": "Searching",
+    "addNew": "Create",
+    "issueDate": "Reception time",
+    "receiverDepartment": "Receiver Department",
+    "receiverPerson": "Receiver person",
+    "assetVouchers": "List receiving assets",
+    "voucherCode": "Voucher Code",
+    "assetSource": "Asset source",
+    "supplier": "Supplier",
+    "handoverRepresentative": "Handover representative",
+    "note": "Note"
+  },
+  "purchaseRequestStauts": {
+    "search": "Search by name and code status",
+    "title": "Purchase request stauts",
+    "name": "Request stauts name",
+    "code": "Request stauts code",
+    "noti": {
+      "use": "The purchase request stauts is in use, cannot be deleted",
+      "use_all": "All purchase request stauts are used",
+      "deleted_unused": "Deleted unused maintain purchase request stauts"
+    }
+  },
+  "purchaseRequest": {
+    "title": "Purchase request",
+    "requestDepartment": "Request department",
+    "receptionDepartment": "Reception department",
+    "requestDate": "Request date",
+    "status": "Request stauts",
+    "search": "Search by reception department  and request department"
+  },
+  "purchasePlaning": {
+    "title": "Kế hoạch mua sắm",
+    "planingDepartment": "Phòng ban lập kế hoạch",
+    "planingDate": "Ngày lập kế hoạch",
+    "approvedDate": "Ngày phê duyệt",
+    "listProducts": "Các sản phẩm mua sắm",
+    "note": "Ghi chú"
+  },
+  "purchase_request_count": {
+    "title": "Purchase request count",
+    "name_product": "Product name",
+    "quantity": "Quantity",
+    "formDate": "From date",
+    "formToDate": "Form to date",
+    "add": "Add purchase planing",
+    "request_information": "Request information"
+  },
+  "Add": "Add New",
+  "Delete": "Delete",
+  "Search": "Search",
+  "enterSearch": "Enter Search"
+}

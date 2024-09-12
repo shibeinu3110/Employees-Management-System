@@ -1,0 +1,10 @@
+<service>
+    <id>Sample-Keycloak-Sso</id> <!-- Change this -->
+    <name>Sample-Keycloak-Sso</name><!-- Change this -->
+    <description>Sample-Keycloak-Sso</description><!-- Change this -->
+    <workingdirectory>%BASE%\</workingdirectory>
+    <logpath>%BASE%\logs</logpath>
+
+    <executable>C:\Program Files\Java\jdk1.8.0_131\bin\java</executable>
+    <arguments>-Xms512m -Xmx1024m -XX:PermSize=128m -XX:MaxPermSize=128m -jar sample-keycloak-sso.jar</arguments><!-- Change this -->
+</service>

@@ -1,0 +1,11 @@
+.react-bootstrap-table table{
+  min-width: 750px;
+}
+.alert-row td {
+background-color: #fdf2e9;
+}
+.responsive{
+width: 100%;
+height: 100%;
+overflow-x:auto;
+}

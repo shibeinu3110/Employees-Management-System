@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a0b63e0-f4e6-4098-af53-e830612f3123" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2imiQevWiWbPc5wVrDP9zUz2qcm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DAApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MY PC/Downloads/L2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="DAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="da-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.globits.DAApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-f644763e9732-af3fa2b8" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration useDefault="false">C:\Users\MY PC\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="runUnderTerminal" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a0b63e0-f4e6-4098-af53-e830612f3123" name="Changes" comment="" />
+      <created>1720102138535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720102138535</updated>
+      <workItem from="1720102139970" duration="3495000" />
+      <workItem from="1720145823291" duration="409000" />
+      <workItem from="1720150368192" duration="11903000" />
+      <workItem from="1720406365679" duration="9825000" />
+      <workItem from="1720492525106" duration="4027000" />
+      <workItem from="1720582449957" duration="10622000" />
+      <workItem from="1720881658213" duration="2846000" />
+      <workItem from="1720946624164" duration="7347000" />
+      <workItem from="1721031093668" duration="4033000" />
+      <workItem from="1721137918211" duration="5823000" />
+      <workItem from="1721550617212" duration="11742000" />
+      <workItem from="1721634619162" duration="9328000" />
+      <workItem from="1721792000297" duration="4845000" />
+      <workItem from="1721829427469" duration="3414000" />
+      <workItem from="1721912110173" duration="1798000" />
+      <workItem from="1722089718228" duration="3359000" />
+      <workItem from="1722154062241" duration="9116000" />
+      <workItem from="1722223343507" duration="6578000" />
+      <workItem from="1722348488592" duration="3217000" />
+      <workItem from="1722577477734" duration="9648000" />
+      <workItem from="1722610397362" duration="1477000" />
+      <workItem from="1723003691869" duration="675000" />
+      <workItem from="1723182797051" duration="7071000" />
+      <workItem from="1723371666586" duration="622000" />
+      <workItem from="1723372316922" duration="5062000" />
+      <workItem from="1723557022117" duration="4809000" />
+      <workItem from="1723655347901" duration="148000" />
+      <workItem from="1723711444350" duration="10005000" />
+      <workItem from="1723803882000" duration="5164000" />
+      <workItem from="1723820697362" duration="183000" />
+      <workItem from="1723821161162" duration="356000" />
+      <workItem from="1723821529292" duration="735000" />
+      <workItem from="1723865430627" duration="698000" />
+      <workItem from="1724060540758" duration="917000" />
+      <workItem from="1724062469771" duration="216000" />
+      <workItem from="1724161514132" duration="837000" />
+      <workItem from="1724208992616" duration="2209000" />
+      <workItem from="1724296737463" duration="1292000" />
+      <workItem from="1724331117696" duration="1404000" />
+      <workItem from="1724481668136" duration="14405000" />
+      <workItem from="1724670463869" duration="5000" />
+      <workItem from="1724683129598" duration="1667000" />
+      <workItem from="1724740478693" duration="623000" />
+      <workItem from="1724748608585" duration="7000" />
+      <workItem from="1725174416843" duration="15000" />
+      <workItem from="1725174508186" duration="603000" />
+      <workItem from="1725182490393" duration="638000" />
+      <workItem from="1725533482927" duration="633000" />
+      <workItem from="1725681306280" duration="5336000" />
+      <workItem from="1726039867917" duration="28000" />
+      <workItem from="1726051111047" duration="929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
